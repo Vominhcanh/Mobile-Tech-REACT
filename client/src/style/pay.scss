@@ -1,0 +1,27 @@
+.button-order-main{
+    background: linear-gradient(#ff416c, #ff4b2b);
+    border: 1px solid #cccc;
+    padding: 8px 15px;
+    width: 100%;
+    color: #ffff;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    &:active {
+      transform: scale(0.97);
+    }
+}
+.pay-onl{
+    margin: 10px auto;
+    background: linear-gradient(#ff416c, #ff4b2b);
+    border: 1px solid #cccc;
+    padding: 8px 15px;
+    width: 100%;
+    color: #ffff;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    &:active {
+      transform: scale(0.97);
+    }
+}

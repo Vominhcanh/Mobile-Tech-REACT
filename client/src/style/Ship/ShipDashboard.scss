@@ -1,0 +1,39 @@
+.container-ship{
+    .ship-header{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        padding: 0 10%;
+        .ship-nav{
+            display: flex;
+            gap: 40px;
+        }
+        .logout{
+            text-transform: none;
+            align-items: center;
+            display: flex;
+            gap: 5px;
+            color: #ffff;
+            border-radius: 10px;
+            padding: 5px 10px;
+            background-image: linear-gradient(135deg, #f34079 40%, #eb6218);
+            cursor: pointer;
+            &:active {
+              transform: scale(0.97);
+            }
+        }
+
+    }
+    .table-list{
+      margin: 20px 10%;
+      .header-category{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+
+      }
+     
+    }
+}

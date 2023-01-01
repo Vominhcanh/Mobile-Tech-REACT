@@ -1,0 +1,22 @@
+.container-detals{
+    margin: 20px 10%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    .details-order{
+        .table-order{
+        }
+        display: flex;
+        justify-content: space-between;
+        .infor{
+            text-align: left;
+            margin-left: 20px;
+        }
+        table,th,td{
+            border: 1px solid #ccc;
+            
+        }
+      
+    }
+}

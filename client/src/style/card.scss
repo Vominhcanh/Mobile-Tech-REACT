@@ -1,0 +1,32 @@
+.cards {
+  display: grid;
+  padding: 15px 5%;
+  @include grid(repeat(6, 1fr), 15px);
+
+  .card {
+    padding: 0;
+    padding-top: 10px;
+
+    @include flex(center, none, center);
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include width(
+        110px,
+        110px,
+        linear-gradient(#ff416c, #ff4b2b),
+        none,
+        50%,
+        none
+      );
+    }
+    img {
+      width: 70px;
+    }
+    .right {
+      margin-top: 5px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.button-dow{
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: #fff;
+    letter-spacing: 1.3px;
+    background: linear-gradient(#ff416c, #ff4b2b);
+    box-shadow: 2px 2px 25px -7px #4c4c4c;
+    cursor: pointer;
+    &:active {
+        transform: scale(0.97);
+    }
+}

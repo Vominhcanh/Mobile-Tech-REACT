@@ -1,0 +1,97 @@
+.container-modal{
+  position: fixed;
+  top: 11%;
+  left: 0;
+  right: 0;
+  bottom:0;
+  z-index: 99999;
+  overflow-y: scroll;
+  background-color: #23242481;
+}
+.modal-content{
+    margin:1% auto;
+    width:50%;
+    padding: 10px 20px;
+    background: #fff;
+    .cancel-add{
+      display: flex;
+      justify-content: end;
+    }
+    form{
+        div{
+            input,select{
+              outline: none;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                padding: 6px 10px;
+                width: 100%;
+              right: 0px;
+            }
+        }
+        .add-product{
+          margin: 20px 0;
+          text-align: center;
+          .button-18{
+            background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+            color: aliceblue;
+            padding: 5px 10px;
+            border-radius: 10px;
+            width: 50%;
+
+          }
+       }
+    }
+}
+.button-75 {
+  align-items: center;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  height: 40px;
+  justify-content: center;
+  max-width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button-75:active {
+  outline: 0;
+}
+
+.button-75:hover {
+  outline: 0;
+}
+
+.button-75 span {
+  transition: all 200ms;
+}
+
+.button-75:hover span {
+  transform: scale(.9);
+  opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+  .button-75 {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .button-75 span {
+    line-height: 50px;
+  }
+}
+// .abc {
+//   width: 50px ;
+//   height: 50px;
+//   background-color: #fc894d;
+// }
+.abc  input[type=file]{
+  // background-color: #f34079;
+  
+}

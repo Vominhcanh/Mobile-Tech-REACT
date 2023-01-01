@@ -1,0 +1,25 @@
+.Link-pay{
+    text-align: center;
+    display:flex ;
+    margin-top: 10px;
+    justify-content: center;
+    span{
+        border: 1px solid #cccc;
+        padding: 5px 10px;
+        background: linear-gradient(#ff416c, #ff4b2b);
+        color: aliceblue;
+        padding: 5px 10px;
+        width: 20%;
+        border-radius: 5px;
+        cursor: pointer;
+        &:active {
+          transform: scale(0.97);
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }

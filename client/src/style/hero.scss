@@ -1,0 +1,51 @@
+.hero {
+  @include width(100%, none, none, none, 40px, 10px);
+  margin: auto;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+
+  &::after {
+    content: "";
+    @include positions(absolute, 50px, none, 0, none, 130%, 100vh);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: $xl-3;
+    font-weight: 500;
+    line-height: 1;
+    span {
+      color: $primary;
+      font-size: $xl-4;
+    }
+  }
+  p {
+    margin: 30px 0 50px 0;
+  }
+
+  
+}
+.search {
+  margin: 30px auto;
+  @include width(80%, none, $white, $dark, 40px, 10px);
+  @include flex(center, center, center);
+  box-shadow: 13px 13px 32px #b3b3b3, -13px -13px 32px #ffffff;
+  hr {
+    @include default;
+    background: rgba(#000000, 0.2);
+    height: $lg;
+    width: 0.1rem;
+    margin: 5px;
+  }
+  input {
+    width: 80%;
+    padding: 10px;
+    font-size: $md;
+  }
+  .heIcon {
+    font-size: $xl-2;
+  }
+}
