@@ -1,6 +1,8 @@
-#web selling mobile devices
-Call api from server, add product to cart, buy product, pay cash or online
- Screenshots
+#Web selling mobile devices
+
+#Call api from server, add product to cart, buy product, pay cash or online
+
+ #Screenshots
  
 ![image](https://github.com/Vominhcanh/Mobile-Tech/assets/91335820/a2ae8a47-07d6-4388-963f-8bf709a9a531)
 ![image](https://github.com/Vominhcanh/Mobile-Tech/assets/91335820/febf23f8-4bd8-4daa-b276-8a7391f1cf87)
