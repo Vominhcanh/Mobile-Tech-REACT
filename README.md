@@ -1,6 +1,18 @@
-![image](https://github.com/Vominhcanh/Mobile-Tech/assets/91335820/0f4e2e86-02f5-473a-ab3a-b43c3f5ddd4e)
-![image](https://github.com/Vominhcanh/Mobile-Tech/assets/91335820/ab1b7298-4ec2-4714-aba9-9f3c5cd5d22b)
+
+ Screenshots
+ 
+![image](https://github.com/Vominhcanh/Mobile-Tech/assets/91335820/a2ae8a47-07d6-4388-963f-8bf709a9a531)
+![image](https://github.com/Vominhcanh/Mobile-Tech/assets/91335820/febf23f8-4bd8-4daa-b276-8a7391f1cf87)
 
 
+Link website :https://mobile-tech-khaki.vercel.app/
 
-link website :https://mobile-tech-khaki.vercel.app/
+Tech Stack
+Client: ReactJS, Redux Toolkit, TailwindCSS
+
+Server: NodeJS, ExpressJS
+
+Database: MongoDB
+
+🛠 Skills
+Javascript, HTML, CSS, ReactJS library, Redux, Redux Toolkit, TailwindCSS, Handle logic API...
